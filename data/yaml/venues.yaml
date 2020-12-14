@@ -1,6 +1,7 @@
 aacl:
   acronym: AACL
   is_acl: true
+  is_toplevel: true
   name: Asian Chapter of the Association for Computational Linguistics
 acl:
   acronym: ACL
@@ -17,7 +18,6 @@ aha:
   name: AHA!-Workshop on Information Discovery in Text
 ai4hi:
   acronym: AI4HI
-  is_acl: false
   name: International Workshop on Artificial Intelligence for Historical Image Enrichment
     and Access
   url: https://chia.acdh.oeaw.ac.at/call-for-papers/
@@ -31,11 +31,9 @@ alnlp:
   name: Workshop on Active Learning for Natural Language Processing
 alr:
   acronym: ALR
-  is_acl: false
   name: Workshop on Asian Language Resources
 alta:
   acronym: ALTA
-  is_acl: false
   is_toplevel: true
   name: Australasian Language Technology Association Workshop
   oldstyle_letter: U
@@ -50,7 +48,6 @@ alw:
   name: Workshop on Abusive Language Online
 amta:
   acronym: AMTA
-  is_acl: false
   is_toplevel: true
   name: Conference of the Association for Machine Translation in the Americas
 anlp:
@@ -69,7 +66,6 @@ atanlp:
   name: Workshop on Applications of Tree Automata Techniques in Natural Language Processing
 atsma:
   acronym: ATS-MA
-  is_acl: false
   name: Workshop on Automatic Text Simplification - Methods and Applications in the
     Multilingual Society
 autosimtrans:
@@ -91,7 +87,6 @@ bionlp:
   name: Biomedical Natural Language Processing Workshop
 birndl:
   acronym: BIRNDL
-  is_acl: false
   name: Joint Workshop on Bibliometric-enhanced Information Retrieval and Natural
     Language Processing for Digital Libraries
 blackboxnlp:
@@ -99,7 +94,6 @@ blackboxnlp:
   name: 'BlackboxNLP: Analyzing and Interpreting Neural Networks for NLP'
 bsnlp:
   acronym: BSNLP
-  is_acl: false
   name: Workshop on Balto-Slavic Natural Language Processing
 bucc:
   acronym: BUCC
@@ -153,7 +147,6 @@ cllrd:
   name: Citizen Linguistics in Language Resource Development
 clp:
   acronym: CLP
-  is_acl: false
   name: Chinese Language Processing
 clpsych:
   acronym: CLPsych
@@ -164,7 +157,6 @@ clssts:
   name: Workshop on Cross-Language Search and Summarization over Text and Speech
 cltw:
   acronym: CLTW
-  is_acl: false
   name: Celtic Language Technology Workshop
 cmcl:
   acronym: CMCL
@@ -194,17 +186,14 @@ cogalex:
   name: Workshop on Cognitive Aspects of the Lexicon
 coling:
   acronym: COLING
-  is_acl: false
   is_toplevel: true
-  name: Int'l Committee on Computational Linguistics (ICCL) Conf.
+  name: International Conference on Computational Linguistics (ICCL)
   oldstyle_letter: C
 comacoma:
   acronym: ComAComA
-  is_acl: false
   name: Workshop on Computational Approaches to Compound Analysis
 computerm:
   acronym: CompuTerm
-  is_acl: false
   name: International Workshop on Computational Terminology
 conll:
   acronym: CoNLL
@@ -226,7 +215,6 @@ crac:
   name: Workshop on Computational Models of Reference, Anaphora and Coreference
 csct:
   acronym: CSCT
-  is_acl: false
   name: Workshop on Computational Semantics in Clinical Text
 cvir:
   acronym: CVIR
@@ -242,15 +230,16 @@ deelio:
     Integration for Deep Learning Architectures'
 depling:
   acronym: DepLing
-  is_acl: false
   name: International Conference on Dependency Linguistics
 discomt:
   acronym: DiscoMT
   is_acl: true
   name: Workshop on Discourse in Machine Translation
+dmr:
+  acronym: DMR
+  name: International Workshop on Designing Meaning Representations
 dmtw:
   acronym: DMTW
-  is_acl: false
   name: Deep Machine Translation Workshop
 eacl:
   acronym: EACL
@@ -267,6 +256,9 @@ ecnlp:
   acronym: ECNLP
   name: The Workshop on e-Commerce and NLP
   url: https://sites.google.com/view/ecnlp/
+ecomnlp:
+  acronym: EcomNLP
+  name: Workshop on Natural Language Processing in E-Commerce
 emnlp:
   acronym: EMNLP
   is_acl: true
@@ -290,7 +282,6 @@ events:
   name: Workshop on EVENTS
 eventstory:
   acronym: EventStory
-  is_acl: false
   name: Workshop on Events and Stories in the News
 exprom:
   acronym: EXprom
@@ -313,6 +304,9 @@ findings:
 finnlp:
   acronym: FinNLP
   name: Financial Technology and Natural Language Processing
+fnp:
+  acronym: FNP
+  name: Workshop on Financial Narrative Processing
 framenet:
   acronym: Framenet
   name: International FrameNet Workshop
@@ -327,6 +321,9 @@ geaf:
   acronym: GEAF
   is_acl: true
   name: Grammar Engineering Across Frameworks Workshop
+gebnlp:
+  acronym: GeBNLP
+  name: Workshop on Gender Bias in Natural Language Processing
 gems:
   acronym: GEMS
   is_acl: true
@@ -349,11 +346,9 @@ gramlex:
   name: Workshop on Grammar and Lexicon
 gwc:
   acronym: GWC
-  is_acl: false
   name: Global WordNet Conference
 hlt:
   acronym: HLT
-  is_acl: false
   is_toplevel: true
   name: Human Language Technology Conf.
   oldstyle_letter: H
@@ -363,7 +358,6 @@ hytra:
   name: Workshop on Hybrid Approaches to Machine Translation
 icon:
   acronym: ICON
-  is_acl: false
   name: International Conference on Natural Language Processing
 icos:
   acronym: ICoS
@@ -371,7 +365,6 @@ icos:
   name: International Workshop on Inference in Computational Semantics
 ijcnlp:
   acronym: IJCNLP
-  is_acl: false
   is_toplevel: true
   name: Int'l Joint Conf. on Natural Language Processing (and workshops)
   oldstyle_letter: I
@@ -387,7 +380,6 @@ intexsempar:
   name: Workshop on Interactive and Executable Semantic Parsing
 isa:
   acronym: ISA
-  is_acl: false
   name: ISO Workshop on Interoperable Semantic Annotation
 iwclul:
   acronym: IWCLUL
@@ -398,6 +390,9 @@ iwcs:
   acronym: IWCS
   is_acl: true
   name: International Conference on Computational Semantics
+iwdp:
+  acronym: iwdp
+  name: The Second International Workshop of Discourse Processing
 iwltp:
   acronym: IWLTP
   name: International Workshop on Language Technology Platforms
@@ -411,12 +406,18 @@ iwslt:
   url: http://www.iwslt.org/
 jeptalnrecital:
   acronym: JEP/TALN/RECITAL
-  is_acl: false
   is_toplevel: true
   name: Journées d'Etudes sur la Parole / Traitement Automatique de la Langue Naturelle
     / Rencontres des Etudiants Chercheurs en Informatique et Traitement Automatique
     des Langues
   oldstyle_letter: F
+knlp:
+  acronym: knlp
+  name: 'Knowledgeable NLP: the First Workshop on Integrating Structured Knowledge
+    and Neural Networks for NLP'
+lantern:
+  acronym: LANTERN
+  name: 'The Second Workshop Beyond Vision and LANguage: inTEgrating Real-world kNowledge'
 lasm:
   acronym: LASM
   is_acl: true
@@ -426,6 +427,10 @@ latech:
   is_acl: true
   name: Workshop on Language Technology for Cultural Heritage, Social Sciences, and
     Humanities
+latechclfl:
+  acronym: LaTeCHCLfL
+  name: SIGHUM Workshop on Computational Linguistics for Cultural Heritage, Social
+    Sciences, Humanities and Literature
 latentvar:
   acronym: LatentVar
   is_acl: true
@@ -436,7 +441,6 @@ law:
   name: Linguistic Annotation Workshop
 lccm:
   acronym: LCCM
-  is_acl: false
   name: Workshop on Language, Cognition and Computational Models
 ldl:
   acronym: LDL
@@ -447,6 +451,9 @@ lglp:
   acronym: LG-LP
   is_acl: true
   name: Workshop on Lexical and Grammatical Resources for Language Processing
+lifelongnlp:
+  acronym: lifelongnlp
+  name: The 2nd Workshop on Life-long Learning for Spoken Language Systems
 lilt:
   acronym: LILT
   is_toplevel: true
@@ -454,13 +461,15 @@ lilt:
 lincr:
   acronym: LiNCr
   name: Linguistic and Neurocognitive Resources
+loresmt:
+  acronym: loresmt
+  name: The 3rd Workshop on Technologies for MT of Low Resource Languages
 louhi:
   acronym: Louhi
   is_acl: true
   name: International Workshop on Health Text Mining and Information Analysis
 lr4nlp:
   acronym: LR4NLP
-  is_acl: false
   name: Workshop on Linguistic Resources for NLP
 lr4sshoc:
   acronym: LR4SSHOC
@@ -469,7 +478,6 @@ lr4sshoc:
   url: https://www.sshopencloud.eu
 lrec:
   acronym: LREC
-  is_acl: false
   is_toplevel: true
   name: International Conference on Language Resources and Evaluation
   oldstyle_letter: L
@@ -509,13 +517,14 @@ moocs:
   is_acl: true
   name: Workshop on Modeling Large Scale Social Interaction In Massively Open Online
     Courses
+msr:
+  acronym: MSR
+  name: Workshop on Multilingual Surface Realisation
 mtsummit:
   acronym: MTSummit
-  is_acl: false
   name: Machine Translation Summit
 muc:
   acronym: MUC
-  is_acl: false
   is_toplevel: true
   name: Message Understanding Conf.
   oldstyle_letter: M
@@ -530,6 +539,9 @@ mwe:
   acronym: MWE
   is_acl: true
   name: Workshop on Multiword Expressions
+mwelex:
+  acronym: MWELEX
+  name: Joint Workshop on Multiword Expressions and Electronic Lexicons
 naacl:
   acronym: NAACL
   is_acl: true
@@ -554,7 +566,6 @@ nli:
   name: The Workshop on Natural Language Interfaces
 nlp4call:
   acronym: NLP4CALL
-  is_acl: false
   name: Workshop on NLP for Computer-Assisted Language Learning
 nlp4convai:
   acronym: NLP4ConvAI
@@ -563,15 +574,16 @@ nlp4convai:
   url: https://sites.google.com/view/2ndnlp4convai/home
 nlp4if:
   acronym: NLP4IF
-  is_acl: false
   name: Workshop on NLP for Internet Freedom
 nlp4ita:
   acronym: NLP4ITA
   is_acl: true
   name: Workshop on Natural Language Processing for Improving Textual Accessibility
+nlp4musa:
+  acronym: NLP4MusA
+  name: Workshop on NLP for Music and Audio
 nlp4tm:
   acronym: NLP4TM
-  is_acl: false
   name: Workshop on Natural Language Processing for Translation Memories
 nlpbt:
   acronym: nlpbt
@@ -585,7 +597,6 @@ nlpcss:
   name: Workshop on NLP and Computational Social Science
 nlplod:
   acronym: NLPLOD
-  is_acl: false
   name: Workshop on Natural Language Processing and Linked Open Data
 nlpmc:
   acronym: NLPMC
@@ -616,18 +627,15 @@ nuse:
   url: https://sites.google.com/view/nuse
 oiaf4hlt:
   acronym: OIAF4HLT
-  is_acl: false
   name: Workshop on Open Infrastructures and Analysis Frameworks for HLT
 onion:
   acronym: ONION
   name: People in Language, Vision and the Mind
 osact:
   acronym: OSACT
-  is_acl: false
   name: Workshop on Open-Source Arabic Corpora and Processing Tools
 paclic:
   acronym: PACLIC
-  is_acl: false
   is_toplevel: true
   name: Pacific Asia Conference on Language, Information and Computation
   oldstyle_letter: Y
@@ -656,17 +664,18 @@ privatenlp:
   name: Workshop on Privacy in NLP
 pylo:
   acronym: PYLO
-  is_acl: false
   name: Workshop on Computational Modeling of Polysynthetic Languages
 rail:
   acronym: RAIL
   name: Workshop on Resources for African Indigenous Languages
 ranlp:
   acronym: RANLP
-  is_acl: false
   is_toplevel: true
   name: International Conference Recent Advances in Natural Language Processing
   oldstyle_letter: R
+rdsm:
+  acronym: RDSM
+  name: International Workshop on Rumours and Deception in Social Media
 readi:
   acronym: READI
   name: Tools and Resources to Empower People with REAding Difficulties
@@ -687,7 +696,6 @@ robonlp:
   name: Workshop on Language Grounding for Robotics
 roclingijclclp:
   acronym: ROCLING/IJCLCLP
-  is_acl: false
   is_toplevel: true
   name: Rocling Computation Linguistics Conference and Journal
   oldstyle_letter: O
@@ -697,7 +705,6 @@ s2mt:
   name: Workshop on Semantics-Driven Statistical Machine Translation
 sadaatl:
   acronym: SADAATL
-  is_acl: false
   name: Workshop on Synchronic and Diachronic Approaches to Analyzing Technical Language
 scai:
   acronym: scai
@@ -716,20 +723,15 @@ sedmt:
   acronym: SedMT
   is_acl: true
   name: Workshop on Semantics-Driven Machine Translation
-sem:
-  acronym: '*SEM'
-  is_acl: true
-  name: Joint Conference on Lexical and Computational Semantics
 sembear:
   acronym: SemBEaR
   is_acl: true
   name: Workshop on Computational Semantics Beyond Events and Roles
 semdeep:
   acronym: SemDeep
-  is_acl: false
   name: Workshop on Semantic Deep Learning
 semeval:
-  acronym: '*SEMEVAL'
+  acronym: SemEval
   is_acl: true
   is_toplevel: true
   name: Lexical and Computational Semantics and Semantic Evaluation (formerly Workshop
@@ -775,9 +777,11 @@ slpat:
 sltu:
   acronym: SLTU
   name: Workshop on Spoken Language Technologies for Under-resourced languages
+smm4h:
+  acronym: SMM4H
+  name: Social Media Mining for Health Applications Workshop
 socialnlp:
   acronym: SocialNLP
-  is_acl: false
   name: Workshop on Natural Language Processing for Social Media
 splu:
   acronym: SpLU
@@ -794,6 +798,11 @@ ssst:
   acronym: SSST
   is_acl: true
   name: Workshop on Syntax, Semantics and Structure in Statistical Translation
+starsem:
+  acronym: '*SEM'
+  name: Joint Conference on Lexical and Computational Semantics
+  is_acl: true
+  is_toplevel: true
 statfsm:
   acronym: StatFSM
   is_acl: true
@@ -804,7 +813,6 @@ step:
   name: Semantics in Text Processing
 stil:
   acronym: STIL
-  is_acl: false
   name: Brazilian Symposium in Information and Human Language Technology
 stoc:
   acronym: STOC
@@ -822,7 +830,6 @@ sustainlp:
   name: Workshop on Simple and Efficient Natural Language Processing
 swaie:
   acronym: SWAIE
-  is_acl: false
   name: Workshop on Semantic Web and Information Extraction
 tacl:
   acronym: TACL
@@ -832,7 +839,6 @@ tacl:
   oldstyle_letter: Q
 tag:
   acronym: TAG+
-  is_acl: false
   name: International Workshop on Tree Adjoining Grammars and Related Formalisms
 teachingnlp:
   acronym: TeachingNLP
@@ -848,7 +854,6 @@ textinfer:
   name: Workshop on Textual Entailment
 tinlap:
   acronym: TINLAP
-  is_acl: false
   is_toplevel: true
   name: Theoretical Issues In Natural Language Processing
   oldstyle_letter: T
@@ -864,7 +869,6 @@ tlt:
   url: https://tlt2020.phil.hhu.de/
 trac:
   acronym: TRAC
-  is_acl: false
   name: Workshop on Trolling, Aggression and Cyberbullying
 ttnls:
   acronym: TTNLS
@@ -872,11 +876,9 @@ ttnls:
   name: Workshop on Type Theory and Natural Language Semantics
 udw:
   acronym: UDW
-  is_acl: false
   name: Universal Dependencies Workshop
 vardial:
   acronym: VarDial
-  is_acl: false
   name: Workshop on Applying NLP Tools to Similar Languages, Varieties and Dialects
 vl:
   acronym: VL
@@ -892,7 +894,6 @@ wac:
   name: Workshop on Web as Corpus
 wamm:
   acronym: WAMM
-  is_acl: false
   name: Workshop on Annotation of Modal Meanings in Natural Language
 wanlp:
   acronym: WANLP
@@ -904,7 +905,6 @@ wassa:
   name: Workshop on Computational Approaches to Subjectivity and Sentiment Analysis
 wat:
   acronym: WAT
-  is_acl: false
   name: Workshop on Asian Translation
 webnlg:
   acronym: WebNLG
@@ -937,5 +937,4 @@ ws:
   oldstyle_letter: W
 wssanlp:
   acronym: WSSANLP
-  is_acl: false
   name: Workshop on South and Southeast Asian NLP
